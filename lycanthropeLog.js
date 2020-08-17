@@ -57,7 +57,6 @@
 // testArray.slice(2,4) //?
 // testArray.slice() //?
 // testArray.slice(2)//?
-
 // word = "LA"
 // newWord = word.repeat(3);
 // newWord //?
@@ -70,7 +69,7 @@ function max(...numbers) {
             result = n
         } 
     }
-    return result;
+    return result; //?
 }
 
 console.log(max(0,-2, 7,1, 17, 5))
